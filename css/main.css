@@ -1,0 +1,49 @@
+html {
+  font-size: 1rem;
+  background: #F4F6F7 ;
+}
+body{
+  background: #F4F6F7 ;
+}
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
+/* cambiar tipo de letra */
+nav.navbar ul.nav li{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* cambiar tipo de letra */
+nav.navbar ul.nav li a {
+    color: #F4F6F7;
+}
+nav.navbar ul.nav.navbar-nav.navbar-right ul.dropdown-menu li a{
+    color: #000;
+}
+nav.navbar div.navbar-header a.navbar-brand{
+    color: #DC7633 ;
+}
+
+/* cambiar el color de fondo a la barra */
+nav.navbar {
+    background-color: #34495E;
+}
+
+#app .app-body .draw-area{
+    display: inline-block;
+}
